@@ -1,5 +1,7 @@
 *{
     font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -27,28 +29,37 @@ h2 {
     position: relative;
     top: 10px;
     color: white;
+    top: 30px;
 }
 p{
     position: relative;
-    top: 8px;
+    top: 43px;
     font-size: 18px;
     color: hsl(215, 51%, 70%);
     line-height: 30px;
+    font-size: 17px;
 }
 
-.eth-icon{
+.eth-photo{
     float: left;
+    position: relative;
+    top: 60px;
 }
 h3{
-    color: hsl(178, 100%, 50%);
-}
-
-.clock-icon{
     position: relative;
+    top: 60px;
+    color: aqua;
+    margin: 2px;
+    
+}
+.clock-photo{
     float: right;
-    top: -38px;
+    position: relative;
+    top: 35px;
+}
+.days-left{
+    float: right;
+    align-items: center;
 }
 
-.days{
-    float: left;
-}
+
