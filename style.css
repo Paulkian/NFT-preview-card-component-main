@@ -19,17 +19,52 @@ body{
     padding: 27px;
     border-radius: 17px;
 }
-img{
+.photo-ETH{
     display: block;
     margin: auto;
-    border-radius: 10px
+    border-radius: 10px;
+   
 }
+.eye-icon{
+    position: absolute;
+    position: absolute; 
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.overlay{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    height: 308px;
+    width: 308px;
+    background-color: aqua;
+    
+}
+.overlay:hover{
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+.view-icon{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
 
 h2 {
     position: relative;
     top: 10px;
     color: white;
     top: 30px;
+}
+h2:hover{
+    transition: all 1s ease;
+    color: aqua;
 }
 p{
     position: relative;
@@ -40,26 +75,79 @@ p{
     font-size: 17px;
 }
 
-.eth-photo{
-    float: left;
+.eth-clock-container{
     position: relative;
-    top: 60px;
+    top: 40px;
+    display: flex;
+    justify-content: space-around;
+   
+
 }
-h3{
+
+.eth-price{
+    display: flex;
+}
+.eth-img{
     position: relative;
-    top: 60px;
+    top: 18px;
+    left: -28px;
+}
+.eth-text{
     color: aqua;
-    margin: 2px;
-    
-}
-.clock-photo{
-    float: right;
     position: relative;
-    top: 35px;
+    top: 22px;
+    left: -21px;
 }
-.days-left{
-    float: right;
-    align-items: center;
+
+.clock{
+    display: flex;
+}
+
+.clock-img{
+    position: relative;
+    top: 18px;
+    left: 15px;
+}
+
+.clock-text{
+    position: relative;
+    top: 16px;
+    left: 25px;
 }
 
 
+hr{
+    position:relative;
+    top: 65px;
+    border: none;
+    height: 0.9px;
+    background: white;
+    margin-bottom: 50px;
+}
+
+.creator{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.creator-profile{
+    position: relative;
+    height: 35px;
+    border-radius: 40px;
+    border: 1px solid white;
+    top: 40px;
+    left: 0px;
+}
+
+.creator-name{
+    position: relative;
+    left: 20px;
+}
+span{
+    color: white;
+}
+span:hover{
+    transition: all 1s ease;
+    color: aqua;
+}
